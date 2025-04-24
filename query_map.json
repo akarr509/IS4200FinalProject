@@ -1,0 +1,66 @@
+[
+    {
+      "query_id": "query_001",
+      "query": "High protein chicken based dinner",
+      "narrative": "The user is looking for dinner recipes that contain chicken and are high in protein. Relevant recipes must prominently feature chicken as the main protein source and include at least 25g of protein per serving. Recipes without chicken or with insufficient protein content should be considered non-relevant.",
+      "doc_ids": ["doc_001", "doc_002", "doc_003", "doc_004", "doc_005", "doc_006", "doc_007", "doc_008", "doc_009", "doc_010", "doc_011", "doc_012", "doc_013", "doc_014"]
+    },
+    {
+      "query_id": "query_002",
+      "query": "Pasta with alfredo and without mushrooms",
+      "narrative": "The user is looking for pasta recipes with alfredo sauce that do not contain any mushrooms. Relevant recipes must include an alfredo-style sauce and must exclude mushrooms entirely. Recipes with other sauces or containing mushrooms should be considered non-relevant.",
+      "doc_ids": ["doc_015", "doc_016", "doc_017", "doc_018", "doc_019", "doc_020", "doc_021", "doc_022", "doc_023", "doc_024", "doc_025", "doc_026", "doc_027", "doc_028"]
+    },
+    {
+        "query_id": "query_003",
+        "query": "Low sodium egg dishes",
+        "narrative": "The user wants egg-based dishes that are low in sodium, ideally under 400mg per serving. Relevant recipes must feature eggs as a key ingredient and meet the low-sodium nutritional threshold. High-sodium recipes or those where eggs are not central should be considered non-relevant.", 
+        "doc_ids": ["doc_029", "doc_030", "doc_031", "doc_032", "doc_033", "doc_034", "doc_035", "doc_036", "doc_037", "doc_038", "doc_039", "doc_040"]
+    },
+    {
+        "query_id": "query_004",
+        "query": "High protein vegetarian lunches",
+        "narrative": "The user seeks vegetarian lunch ideas that are high in protein. Relevant recipes must contain no meat or fish and must provide at least 25g of protein per serving. Recipes containing meat or lacking in protein should be excluded from relevance.",
+        "doc_ids": ["doc_041", "doc_042", "doc_043", "doc_044", "doc_045", "doc_046", "doc_047", "doc_048", "doc_049", "doc_090", "doc_091"]
+    },
+    {
+        "query_id": "query_005",
+        "query": "Vegetarian dinners without beans",
+        "narrative": "The user is looking for meatless dinner recipes that specifically exclude all types of beans. Relevant results must be vegetarian and must not include any variation of beans (e.g., black beans, pinto beans). Recipes containing any kind of bean should be marked non-relevant.",
+        "doc_ids": ["doc_050", "doc_051", "doc_052", "doc_053", "doc_054", "doc_055", "doc_056", "doc_057", "doc_092", "doc_093", "doc_094"]
+    },
+    {
+        "query_id": "query_006",
+        "query": "Low sugar snack recipes",
+        "narrative": "The user wants snack recipes that are low in sugar, ideally with 10g or less of sugar per serving. Relevant recipes should be easy to prepare as snacks and meet the sugar threshold. High-sugar recipes or meals misclassified as snacks should be considered non-relevant.", 
+        "doc_ids": ["doc_058", "doc_059", "doc_060", "doc_061", "doc_062", "doc_063", "doc_064", "doc_095", "doc_096", "doc_097"]
+    },
+    {
+        "query_id": "query_007",
+        "query": "Overnight oats recipes no blueberries",
+        "narrative": "The user is searching for overnight oats recipes that do not include blueberries. Relevant results must clearly be overnight-style oats and should exclude any mention of blueberries or blueberry-based toppings. Any inclusion of blueberries, even in optional form, makes a recipe non-relevant.",
+        "doc_ids": ["doc_065", "doc_066", "doc_067", "doc_068", "doc_069", "doc_070", "doc_071", "doc_072", "doc_073", "doc_098"]
+    },
+    {
+        "query_id": "query_008",
+        "query": "Breakfast sandwiches without eggs",
+        "narrative": "The user wants breakfast sandwich recipes that do not contain eggs. Relevant recipes must be clearly intended as breakfast sandwiches and must not include eggs in any form. Recipes with eggs as an ingredient or topping are considered non-relevant.",
+        "doc_ids": ["doc_074", "doc_075", "doc_076", "doc_077", "doc_078", "doc_079", "doc_080", "doc_081", "doc_099", "doc_100"]
+    },
+    {
+        "query_id": "query_009",
+        "query": "Low sugar ice cream recipes",
+        "narrative": "The user is looking for ice cream recipes with low sugar content, specifically under 10g of sugar per serving. Relevant results must be recognizable as ice cream and meet the sugar criteria. Recipes with high sugar content or unrelated frozen desserts should be excluded.",
+        "doc_ids": ["doc_082", "doc_083", "doc_084", "doc_085", "doc_086", "doc_087", "doc_088", "doc_089", "doc_101", "doc_102"]
+    },
+    {
+        "query_id": "query_010",
+        "query": "Low calorie dinners vegetarian",
+        "narrative": "The user wants dinner recipes that are both low in calories (under 500 per serving) and meat-free. Relevant recipes must qualify as dinner meals, contain no meat or meat derivatives, and meet the calorie threshold. Recipes with any form of meat or exceeding the calorie limit are not relevant.",
+        "doc_ids": ["doc_103", "doc_104", "doc_105", "doc_106", "doc_107", "doc_108", "doc_109", "doc_110", "doc_111", "doc_112"]
+    }
+
+
+
+
+  ]
